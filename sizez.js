@@ -2,14 +2,14 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-var prefix = ";";
+var prefix = "m!";
 
 client.login(process.env.BOT_TOKEN);
 
 client.on("ready", () => {
     console.log("SelfBot is start");
-    client.user.setGame("niker des meres");
-    client.user.setStatus("invisible");
+    client.user.setGame("ملوووحي");
+    client.user.setStatus("streaming");
 });
 
 client.on ("message", message => {
